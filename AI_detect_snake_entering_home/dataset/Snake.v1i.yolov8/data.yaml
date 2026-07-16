@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 23
+names: ['Banded_krait', 'Burmese_python', 'Common_sunbeam_snake', 'Copperhead_racer', 'Golden_tree_snake', 'Indochinese_rat_snake', 'Javan_wart_snake', 'King_cobra', 'Laotian_wolf_snake', 'Large_eyed_pit_viper', 'Malayan_krait', 'Malayan_pit_viper', 'Monocled_cobra', 'Oriental_rat_snake', 'Rainbow_mud_snake', 'Reticulated_python', 'Siamese_Russell-s_Viper', 'Siamese_red_necked_keelback', 'Small_banded_kukri_snake', 'Small_spotted_coral_snake', 'Striped_kukri_snake', 'Western_mangrove_cat_snake', 'Yellow_spotted_keelback']
+
+roboflow:
+  workspace: kmutnb-cl23j
+  project: snake-aumst
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kmutnb-cl23j/snake-aumst/dataset/1
